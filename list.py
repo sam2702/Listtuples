@@ -7,7 +7,7 @@ for i in range(0, n):
     
     if A[0] == 'insert':
         List.insert(int(A[1]), int(A[2]))
-    elif tokens[0] == 'print':
+    elif A[0] == 'print':
         print (List)
     elif A[0] == 'remove':
         List.remove(int(A[1]))
