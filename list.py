@@ -1,9 +1,9 @@
 List = []
 
-n = int(input())
+n = int(raw_input())
 
 for i in range(0, n):
-    A =input().split()
+    A =raw_input().split()
     
     if A[0] == 'insert':
         List.insert(int(A[1]), int(A[2]))
